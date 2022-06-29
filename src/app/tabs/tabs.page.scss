@@ -1,1 +1,16 @@
+ion-tab-button {
+  --ripple-color: transparent;
+  &.tab-selected {
+    ion-icon {
+      border-radius: 16px;
+      padding: 4px 16px;
+      background-color: #bfdbfe;
+      color: var(--ion-color-primary);
+    }
+  }
 
+  ion-icon {
+    border-radius: 16px;
+    padding: 4px 16px;
+  }
+}
